@@ -49,7 +49,8 @@
 ## Codevember
 ### A project a week
 
-#### [Week 1 - Book Writing Platform](/BookPublisher)
+#### Week 1 - Book Writing Platform
+#### [See this project in action](/BookPublisher)
 
 ##### Objective
 The goal of this project is to create a simple "Book Writing App" that can be used for NaNoWriMo.
