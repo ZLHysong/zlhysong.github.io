@@ -2,7 +2,7 @@
 ## One a day, for one month.
 
 ### Daily Themes
-#### Click to see the full picture
+#### ~~Click to see the full picture~~
 
 1. Swift
 2. Divided
@@ -25,16 +25,16 @@
 19. Cloud
 20. Deep
 21. Furious 
-22. Trail
-23. Juicy
-24. Blind
-25. Ship
-26. Squeak
-27. Climb
-28. Fall
-29. United
-30. Found
-31. Mask
+22. _Trail_
+23. _Juicy_
+24. _Blind_
+25. _Ship_
+26. _Squeak_
+27. _Climb_
+28. _Fall_
+29. _United_
+30. _Found_
+31. _Mask_
 
 # Codevember
 
