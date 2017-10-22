@@ -1,8 +1,18 @@
-# Inktober
-## One a day, for one month.
+# Zachery Hysong
+## Contact Information
 
-### Daily Themes
-#### ~~Click to see the full picture~~
+| Website Name              | URL                                  |
+|---------------------------|-----------------------------------|
+| Personal Website          | https://www.zacheryhysong.com     |
+| Hysong Tech (My Business) | https://www.hysongtech.com        |
+| Github                    | https://github.com/ZLHysong       |
+| Facebook                  | https://www.facebook.com/zlhysong |
+
+## Inktober
+### One a day, for one month.
+
+#### Daily Themes
+##### ~~Click to see the full picture~~
 
 1. Swift
 2. Divided
@@ -36,6 +46,17 @@
 30. _Found_
 31. _Mask_
 
-# Codevember
+## Codevember
+### A project a week
 
-## A project a week
+#### Week 1
+##### Book Writing Platform
+
+#### Week 2
+##### Custom Google Search Page
+
+#### Week 3
+##### Chrome Browser Extension
+
+#### Week 4
+##### 
