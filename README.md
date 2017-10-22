@@ -4,7 +4,7 @@
 | Website Name              | URL                                  |
 |---------------------------|-----------------------------------|
 | Personal Website          | https://www.zacheryhysong.com     |
-| Hysong Tech (My Business) | https://www.hysongtech.com        |
+| Hysong Tech               | https://www.hysongtech.com        |
 | Github                    | https://github.com/ZLHysong       |
 | Facebook                  | https://www.facebook.com/zlhysong |
 
@@ -49,14 +49,10 @@
 ## Codevember
 ### A project a week
 
-#### Week 1
-##### Book Writing Platform
+#### Week 1 - Book Writing Platform
 
-#### Week 2
-##### Custom Google Search Page
+#### Week 2 - Custom Google Search Page
 
-#### Week 3
-##### Chrome Browser Extension
+#### Week 3 - Chrome Browser Extension
 
-#### Week 4
-##### 
+#### Week 4 - 
