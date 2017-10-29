@@ -1,57 +1,62 @@
 # Zachery Hysong
 
-| Personal Website          | https://www.zacheryhysong.com     |
-| Hysong Tech               | https://www.hysongtech.com        |
-| Github                    | https://github.com/ZLHysong       |
-| Facebook                  | https://www.facebook.com/zlhysong |
+| Personal Website          | [https://www.zacheryhysong.com](https://www.zacheryhysong.com)         |
+| Hysong Tech               | [https://www.hysongtech.com](https://www.hysongtech.com)               |
+| Github                    | [https://github.com/ZLHysong](https://github.com/ZLHysong)             |
+| Facebook                  | [https://www.facebook.com/zlhysong](https://www.facebook.com/zlhysong) |
 
 ## Inktober
-### One a day, for one month.
+
+### One a day, for one month
 
 #### Daily Themes
+
 ##### ~~Click to see the full picture~~
 
 1. Swift
-2. Divided
-3. Poison
-4. Underwater
-5. Long
-6. Sword
-7. Shy
-8. Crooked
-9. Screech
-10. Gigantic
-11. Run
-12. Shattered
-13. Teeming
-14. Fierce
-15. Mysterious
-16. Fat
-17. Graceful
-18. Filthy
-19. Cloud
-20. Deep
-21. Furious 
-22. _Trail_
-23. _Juicy_
-24. _Blind_
-25. _Ship_
-26. _Squeak_
-27. _Climb_
-28. _Fall_
-29. _United_
-30. _Found_
-31. _Mask_
+1. Divided
+1. Poison
+1. Underwater
+1. Long
+1. Sword
+1. Shy
+1. Crooked
+1. Screech
+1. Gigantic
+1. Run
+1. Shattered
+1. Teeming
+1. Fierce
+1. Mysterious
+1. Fat
+1. Graceful
+1. Filthy
+1. Cloud
+1. Deep
+1. Furious
+1. Trail
+1. Juicy
+1. Blind
+1. Ship
+1. Squeak
+1. Climb
+1. Fall
+1. _United_
+1. _Found_
+1. _Mask_
 
 ## Codevember - A project a week
 
 ### Week 1 - Book Writing Platform
+
 [See this project in action](/BookPublisher)
 
 #### Objective
+
 The goal of this project is to create a simple "Book Writing App" that can be used for NaNoWriMo, as well as any other writing needs.
 
 #### Planned Features
+
 - Create new Chapters and Sections with the click of a button.
 - Sidebar for navigation between sections and chapters
 - Simple WYSIWYG editor built in, with save and delete buttons
@@ -60,4 +65,4 @@ The goal of this project is to create a simple "Book Writing App" that can be us
 
 ### Week 3 - Chrome Browser Extension
 
-### Week 4 - 
+### Week 4
