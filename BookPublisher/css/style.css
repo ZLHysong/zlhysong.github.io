@@ -271,6 +271,13 @@ a.article:hover {
 	box-shadow: 1px 1px 10px #999;
 }
 
+.card .card-title {
+	border-bottom: 1px solid #ddd;
+	font-size: 1.25em;
+	padding: 10px;
+	text-align: center;
+}
+
 .card .card-header {
 	border-bottom: 1px solid #ddd;
 	border-radius: 5px;
