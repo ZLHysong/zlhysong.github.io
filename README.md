@@ -1,8 +1,5 @@
 # Zachery Hysong
-## Contact Information
 
-| Website Name              | URL                                  |
-|---------------------------|-----------------------------------|
 | Personal Website          | https://www.zacheryhysong.com     |
 | Hysong Tech               | https://www.hysongtech.com        |
 | Github                    | https://github.com/ZLHysong       |
