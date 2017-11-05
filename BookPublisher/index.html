@@ -11,7 +11,7 @@
 	<!-- Bootstrap CSS CDN -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<!-- Our Custom CSS -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css" id="themeCSS">
 </head>
 
 <body>
@@ -57,85 +57,85 @@
 												<span class="glyphicon glyphicon-align-justify"></span>
 											</button>
 										</div>
+										<button type="button" id="ThemeChooser" onclick="themeChanger()" class="btn btn-default navbar-btn">
+												Go Light
+										</button>
 									</div>
 								</li>
 							</ul>
 						</div>
 					</div>
 				</nav>
-
 				<div class="row">
 					<div class="col-xs-12">
 						<h2>Recent Projects</h2>
 						<br>
 					</div>
 				</div>
-
 				<div class="row">
 					<div class="col-xs-6">
 						<div class="card">
 							<div class="card-header">
-								<img class="img-responsive" src="http://lorempixel.com/1000/1000/cats/" alt="Header Image">
+								<img class="img-responsive" src="" alt="Header Image">
 							</div>
 							<div class="card-title">Title</div>
-							<div class="card-content">Description</div>
+							<div class="card-content">Long Description that contains some Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo eos eveniet deleniti laboriosam, ipsam fuga praesentium sunt aliquam. Dolorem veritatis maxime officia cupiditate enim at, dolorum nihil voluptatem
+								consectetur labore?</div>
 							<div class="card-footer">Footer</div>
 						</div>
 					</div>
 					<div class="col-xs-6">
 						<div class="card">
 							<div class="card-header">
-								<img class="img-responsive" src="http://lorempixel.com/1000/999/cats/" alt="Header Image">
+								<img class="img-responsive" src="" alt="Header Image">
 							</div>
 							<div class="card-title">Title</div>
-							<div class="card-content">Description</div>
+							<div class="card-content">Long Description that contains some Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo eos eveniet deleniti laboriosam, ipsam fuga praesentium sunt aliquam. Dolorem veritatis maxime officia cupiditate enim at, dolorum nihil voluptatem
+								consectetur labore?</div>
 							<div class="card-footer">Footer</div>
 						</div>
 					</div>
 				</div>
-
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="line"></div>
 					</div>
 				</div>
-
 				<div class="row">
 					<div class="col-xs-12">
 						<h2>All Projects</h2>
 						<br>
 					</div>
 				</div>
-
 				<div class="row">
 					<div class="col-xs-6">
 						<div class="card">
 							<div class="card-header">
-								<img class="img-responsive" src="http://lorempixel.com/1000/998/cats/" alt="Header Image">
+								<img class="img-responsive" src="" alt="Header Image">
 							</div>
 							<div class="card-title">Title</div>
-							<div class="card-content">Description</div>
+							<div class="card-content">Long Description that contains some Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo eos eveniet deleniti laboriosam, ipsam fuga praesentium sunt aliquam. Dolorem veritatis maxime officia cupiditate enim at, dolorum nihil voluptatem
+								consectetur labore?</div>
 							<div class="card-footer">Footer</div>
 						</div>
 					</div>
 					<div class="col-xs-6">
 						<div class="card">
 							<div class="card-header">
-								<img class="img-responsive" src="http://lorempixel.com/1000/997/cats/" alt="Header Image">
+								<img class="img-responsive" src="" alt="Header Image">
 							</div>
 							<div class="card-title">Title</div>
-							<div class="card-content">Description</div>
+							<div class="card-content">Long Description that contains some Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo eos eveniet deleniti laboriosam, ipsam fuga praesentium sunt aliquam. Dolorem veritatis maxime officia cupiditate enim at, dolorum nihil voluptatem
+								consectetur labore?</div>
 							<div class="card-footer">Footer</div>
 						</div>
 					</div>
 				</div>
-
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="line"></div>
 					</div>
 				</div>
-
 				<div class="row">
 					<div class="col-xs-12">
 						<h3>Other Tools</h3>
@@ -151,12 +151,28 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 	<script type="text/javascript">
+		var theme = "dark";
+
 		$(document).ready(function() {
 			$('#sidebarDiv').load("sections/sidebar.html");
 			$('#sidebarCollapse').on('click', function() {
 				$('#sidebarDiv').toggleClass('active');
 			});
 		});
+
+		function themeChanger() {
+			if (theme == "dark") {
+				theme = "light";
+				document.getElementById('themeCSS').href = 'css/lighttheme.css';
+				document.getElementById('ThemeChooser').innerHTML = 'Go Dark';
+				console.log("Light theme selected");
+			} else if (theme == "light") {
+				theme = "dark";
+				document.getElementById('themeCSS').href = 'css/style.css';
+				document.getElementById('ThemeChooser').innerHTML = 'Go Light';
+				console.log("Dark theme selected");
+			};
+		}
 	</script>
 </body>
 
