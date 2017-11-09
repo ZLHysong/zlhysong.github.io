@@ -1,18 +1,39 @@
-# Book Publisher
+CKEditor 4
+==========
 
-## Features
+Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
+http://ckeditor.com - See LICENSE.md for license information.
 
-This program's goal is to make NaNoWriMo easier to manage, by containing features tailored to writing with specific goals in mind. This will include Daily, Weekly, and Monthly word goals, including tracking how far ahead / behind a specific goal you are, customizing the colors / background images of each pane, user management, and exporting to different file types, such as PDF, Word, or TXT Files.
+CKEditor is a text editor to be used inside web pages. It's not a replacement
+for desktop text editors like Word or OpenOffice, but a component to be used as
+part of web applications and websites.
 
-## Programming Goals
+## Documentation
 
-The goal for this program is to have a feature complete system published by the end of November 2017.
+The full editor documentation is available online at the following address:
+http://docs.ckeditor.com
 
-## Current Status
+## Installation
 
-The program has a functioning editor, which connects to a MySQL DB for storage.
+Installing CKEditor is an easy task. Just follow these simple steps:
 
-## Next Steps
+ 1. **Download** the latest version from the CKEditor website:
+    http://ckeditor.com. You should have already completed this step, but be
+    sure you have the very latest version.
+ 2. **Extract** (decompress) the downloaded file into the root of your website.
 
-- Allow for multiple pages (Chapters, Sections, Books, Etc.)
-- Export to PDF, epub, DOCX
+**Note:** CKEditor is by default installed in the `ckeditor` folder. You can
+place the files in whichever you want though.
+
+## Checking Your Installation
+
+The editor comes with a few sample pages that can be used to verify that
+installation proceeded properly. Take a look at the `samples` directory.
+
+To test your installation, just call the following page at your website:
+
+	http://<your site>/<CKEditor installation path>/samples/index.html
+
+For example:
+
+	http://www.example.com/ckeditor/samples/index.html
