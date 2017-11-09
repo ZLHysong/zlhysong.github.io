@@ -1,9 +1,9 @@
 <?php
 	$editor_data = $_POST[ 'editor1' ];
-	$servername = "mysql.zacheryhysong.com";
-	$username = "zacheryhysongcom";
-	$password = "JnYkuxhr";
-	$dbname = "bookpublisherdb";
+	$servername = "REDACTED";
+	$username = "REDACTED";
+	$password = "REDACTED";
+	$dbname = "REDACTED";
 	
 	$sql = "REPLACE INTO test (id, content) VALUES (1, '" . $editor_data . "');";
 	$conn = new mysqli($servername, $username, $password, $dbname);

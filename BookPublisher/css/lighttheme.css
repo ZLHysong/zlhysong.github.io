@@ -304,3 +304,20 @@ a.article:hover {
 	padding: 10px;
 	text-align: right !important;
 }
+
+/* ---------------------------------------------------
+	EDITOR
+----------------------------------------------------- */
+
+.ed {
+	width: 100% !important;
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+
+#makewide {
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box; 
+}

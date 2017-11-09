@@ -1,7 +1,7 @@
 <!-- Sidebar Holder -->
 <div class="sidebar-header">
-	<h3>Zachery Hysong</h3>	
-	<strong><img class="img-responsive img-circle" src="http://lorempixel.com/48/48/cats/" alt="Header Image"></strong>
+	<h3>Zachery Hysong</h3>
+	<strong><img class="img-responsive img-circle userPic" src="http://lorempixel.com/48/48/cats/" alt="Header Image"></strong>
 </div>
 
 <ul class="list-unstyled components">
@@ -18,11 +18,30 @@
 			<li><a href="#">The Actual End</a></li>
 		</ul>
 	</li>
+	<li><a href="#" id="sidebarCollapse"><i class="glyphicon glyphicon-fullscreen"></i>Toggle Menu</a></li>
 </ul>
-
+<!-- 
 <ul class="list-unstyled CTAs">
 	<li><a href="#" class="download">Download this Book</a></li>
+	<li><a href="#" onclick="themeChanger()" id="ThemeChooser" class="download">Go Light</a></li>
 </ul>
-
+ -->
 <script>
+	function themeChanger() {
+		if (theme == "dark") {
+			theme = "light";
+			document.getElementById('themeCSS').href = 'css/lighttheme.css';
+			document.getElementById('ThemeChooser').innerHTML = 'Go Dark';
+			console.log("Light theme selected");
+		} else if (theme == "light") {
+			theme = "dark";
+			document.getElementById('themeCSS').href = 'css/style.css';
+			document.getElementById('ThemeChooser').innerHTML = 'Go Light';
+			console.log("Dark theme selected");
+		};
+	}
+	$('#sidebarCollapse').on('click', function() {
+		$('#sidebarDiv').toggleClass('active');
+		$('#sidebarDiv').innerHTML = '<i class="glyphicon glyphicon-chevron-right"></i>';
+	});
 </script>

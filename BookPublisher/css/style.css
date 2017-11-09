@@ -341,6 +341,30 @@ a.article:hover {
 	EDITOR
 ----------------------------------------------------- */
 
-.ed {
-	width: 100% !important;
+#makewide {
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+
+
+.cke_chrome {
+	border-color: #333 !important; 
+}
+.cke_bottom, .cke_contents, iframe {
+	background-image: none !important;
+	background-color: #333 !important;
+	border-color: #333 !important;
+	-webkit-box-shadow: 0 1px 0 #333 inset !important;
+	box-shadow: 0 1px 0 #333 inset !important;
+}
+
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #333 !important;
+	border-color: #333 !important;
+}
+
+.userPic {
+	border: 1px solid black !important;
 }
