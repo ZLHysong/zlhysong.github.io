@@ -9,7 +9,7 @@
 
 ## Codevember - A Complete Project in 1 Month
 
-[See this project in action](/BookPublisher)
+[See this project in action](http://www.zacheryhysong.com/ScreenshotToHTML/BookPublisher/editor.php)
 
 ### Book Publisher
 
