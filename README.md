@@ -34,3 +34,8 @@ This is a web app that will be used to catalog your personal book library. It wi
 ### Use Case
 
 I go to lots of secondhand shops, and it would be great to be able to quickly see what books by a given author or in a series, like, say, The Wheel of Time I still need to buy, without accidentally buying one that I already own that had a different cover or whatever.
+
+## Other Apps I've Built
+
+- Terminal Reminder App (with BurntToast for PowerShell)
+- Terminal Habit Tracker App
